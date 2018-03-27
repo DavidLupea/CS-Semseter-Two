@@ -1,0 +1,25 @@
+David Lupea
+IntroCS2 pd5
+HW4 -- Just Evaluation
+2018-2-6
+
+a. True or False and False
+True
+
+b. True and False or True
+True
+
+c. False and 3 / 0 == 2
+False(Short Circuit)
+
+d. 3 / 0 == 2 and False
+Division by zero error
+
+e. (not (not True))
+True
+
+f. True or 8 / 0 == 9
+True(Short Circuit)
+
+g. 6 == 2/0  or True
+Division by zero error

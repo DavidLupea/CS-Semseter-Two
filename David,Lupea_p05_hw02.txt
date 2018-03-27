@@ -1,0 +1,49 @@
+David Lupea
+IntroCS2 pd5
+HW02 -- Var evaluation
+2018-2-3
+
+a.  5 / 2 * 1.0     
+Value: 2.0
+Type: float(float)
+
+b.  1.0 * -3 / 2     
+Value: -1.5
+Type: float(float)
+
+c.  16 ** 1/2        
+Value: 8
+Type: integer(int)
+
+d.  16 ** (1/2)      
+Value: 1
+Type: integer(int)
+
+e.  16.0 ** (1/2)   
+Value: 1.0
+Type: float(float)
+
+f.  16 ** (1./2)     
+Value: 4.0
+Type: float(float)
+
+g.  1 / 3 / 8      
+Value: 0
+Type: integer(int)
+
+h.  1 / (11/12)      
+Value: Divide by zero error. No value
+Type: No type
+
+i.  6 / 5.         
+Value: 1.2
+Type: float(float)
+
+j.  6L - 2         
+Value: 4L
+Type: Long(long)
+
+k.  22 / 7. * 1e2   
+Value: 314.2857142857143
+Type: float(float)
+

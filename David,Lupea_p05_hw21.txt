@@ -1,0 +1,35 @@
+David Lupea
+IntroCS2 pd5
+HW21 -- KeywordArgs
+2018-3-26
+
+
+Given:
+	def f(x, y = 1, z = 10):
+		return x + y + z
+Evaluate the following function calls, error may be an answer.
+
+
+a. f(1)
+12
+
+b. f(2,0)
+12
+
+c. f(1,4,5)
+10`
+
+d. f(2, z=-1)
+2
+
+e. f(y = 2,x=5)
+17
+
+f. f()
+TypeError
+
+g. f(z=2)
+TypeError
+
+h. f(y=5,3)
+SyntaxError
